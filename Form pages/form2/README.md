@@ -1,11 +1,12 @@
-# Form Pages
+# Form1
 
-This collection showcases various forms I created to strengthen my foundation in HTML, CSS, and especially JavaScript.
+This form combines realistic design elements with clear error messages to create
+a more user-friendly experience.
 
-[View the website here](https://mini-website-projects.netlify.app/tribute%20pages/)
+[View the website here](https://mini-website-projects.netlify.app/form%20pages/form2/)
 
 The screenshot below provides a glimpse of the website.
 
-![Screenshot of the website](./images/website-screnshot-1.png)
+## Screenshot
 
-![Screenshot of the website](./images/website-screnshot-2.png)
+![Screenshot of the website](./images/webpage-screenshot-1.png)
