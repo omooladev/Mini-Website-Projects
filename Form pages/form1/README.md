@@ -3,7 +3,7 @@
 This form combines realistic design elements with clear error messages to create
 a more user-friendly experience.
 
-[View the website here](https://mini-website-projects.netlify.app/tribute%20pages/)
+[View the website here](https://mini-website-projects.netlify.app/form%20pages/form1/)
 
 The screenshot below provides a glimpse of the website.
 

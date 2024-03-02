@@ -1,11 +1,12 @@
 # Form Pages
 
-This collection showcases various forms I created to strengthen my foundation in HTML, CSS, and especially JavaScript.
+This collection showcases various forms I created to strengthen my foundation in
+HTML, CSS, and especially JavaScript.
 
-[View the website here](https://mini-website-projects.netlify.app/tribute%20pages/)
+## Links to the website
 
-The screenshot below provides a glimpse of the website.
+[Form1](https://mini-website-projects.netlify.app/form%20pages/form1/)
 
-![Screenshot of the website](./images/website-screnshot-1.png)
+[Form2](https://mini-website-projects.netlify.app/form%20pages/form2/)
 
-![Screenshot of the website](./images/website-screnshot-2.png)
+[NewLetter](https://mini-website-projects.netlify.app/form%20pages/newsletter/)
