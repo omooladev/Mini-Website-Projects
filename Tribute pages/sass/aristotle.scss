@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+
+*{
+    padding: 0px;margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(204, 203, 203);
+    letter-spacing: 1.2px;
+}
+
+.head{display: flex;
+}
+
+.aris{
+    width: 0px;
+    opacity: 0;
+}
+
+.container1{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.name-aristotle{
+    font-family: 'Staatliches', cursive;
+    padding:10px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.year{
+    padding-bottom: 10px;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.container1 p:nth-child(3){
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.container1 p:nth-child(4){
+    font-size: 18px;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 100%;text-align: left;
+    line-height: 1.4rem;
+    letter-spacing: 1.2px;
+}
+
+.image{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px;
+    padding-bottom: 10px;
+
+}
+
+.image img{
+    border-radius: 50%;
+}
+
+.image p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: rgb(204, 203, 203);
+    
+}
+.about_aristotle{
+    padding: 30px 0px;
+}
+.about_aristotle li{
+    padding: 5px;
+}
+.about_aristotle span{
+    font-weight: bold;
+}
+
+.about_aristotle p{
+    font-size: 15px;
+    text-align: center;font-weight: 100;
+    color: rgb(73, 71, 71);
+    
+}
+
+.about_aristotle p a{
+    text-decoration: none;
+    
+}

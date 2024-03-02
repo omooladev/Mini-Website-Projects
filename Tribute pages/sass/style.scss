@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+@import "./aristotle";
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+body{
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    cursor: default;
+}
+
+.container{
+    background-color: transparent;
+    border: 50px solid #eee;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    opacity: 0.5;
+    transition: all 0.5s;
+    font-family: 'Staatliches', cursive;
+}
+
+.container:hover{
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.container h1{
+    color: rgb(150, 124, 124);
+    padding: 10px 0px;
+    font-size: 25px;
+}
+
+.container p{
+    color: rgb(56, 53, 53);
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+.container .links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .links li{
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.container .links li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(49, 6, 148);
+}
+
+.links li a:hover{
+    color: rgb(151, 151, 151);
+    transition: 0.4s ease;
+}
+
+
