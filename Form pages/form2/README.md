@@ -1,7 +1,6 @@
 # Form1
 
-This form combines realistic design elements with clear error messages to create
-a more user-friendly experience.
+This form was built as an personal exercise while learning CSS.
 
 [View the website here](https://mini-website-projects.netlify.app/form%20pages/form2/)
 
