@@ -13,7 +13,7 @@ The screenshot below provides a glimpse of the website.
 
 ## About page
 
-![Screenshot of the website](./images/about-page-screenshot.png)
+![Screenshot of the website](./image/about-page-screenshot.png)
 
 ## Services page
 
