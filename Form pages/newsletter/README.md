@@ -1,11 +1,10 @@
-# Form Pages
+# Newsletter
 
-This collection showcases various forms I created to strengthen my foundation in HTML, CSS, and especially JavaScript.
+This is a product of my journey learning web development. It's a newsletter
+signup form that uses HTML, CSS, and JavaScript.
 
-[View the website here](https://mini-website-projects.netlify.app/tribute%20pages/)
+[View the website here](https://mini-website-projects.netlify.app/form%20pages/newsletter/)
 
 The screenshot below provides a glimpse of the website.
 
-![Screenshot of the website](./images/website-screnshot-1.png)
-
-![Screenshot of the website](./images/website-screnshot-2.png)
+![Screenshot of the website](./images/webpage-screenshot-1.png)
