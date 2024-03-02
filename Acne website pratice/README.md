@@ -9,7 +9,7 @@ The screenshot below provides a glimpse of the website.
 
 ## Home page
 
-![Screenshot of the website](./images/home-page-screenshot.png)
+![Screenshot of the website](./image/home-page-screenshot.png)
 
 ## About page
 
@@ -17,4 +17,4 @@ The screenshot below provides a glimpse of the website.
 
 ## Services page
 
-![Screenshot of the website](./images/services-page-screenshot.png)
+![Screenshot of the website](./image/services-page-screenshot.png)
