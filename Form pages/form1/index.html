@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form novalidate>
+        <h1>Create Account</h1>
+        <div class="formdiv">
+            <label for="username">Username</label>
+            <div class="inputdiv">
+                <input type="text" name="username" id="username"
+                 placeholder="Enter Username" spellcheck="false">
+                 <span class="inputerror"></span>
+            </div>
+            <span class="error">nothing heres</span>
+            
+        </div>
+
+        <div class="formdiv">
+            <label for="emailaddress">Email</label>
+            <div class="inputdiv">
+                <input type="email" name="emailaddress" id="emailaddress"
+                placeholder="Enter Email" spellcheck="false">
+                <span class="inputerror"></span>
+            </div>
+            <span class="error">nothing here</span>
+            
+        </div>
+
+        <div class="formdiv">
+            <label for="password"><span>Password</span> (minimum of 8 characters)</label>
+
+            <div class="inputdiv">
+                <input type="password" name="password" id="password"
+                placeholder="Enter Password" spellcheck="false">
+                <span class="inputerror"></span>
+            </div>
+            <span class="error">nothing here</span>
+            
+        </div>
+        <div class="formdiv">
+            <label for="passwordcheck">Confirm Password</label>
+            <div class="inputdiv">
+                <input type="password" name="confirmpassword" id="confirmpassword"
+                placeholder="Confirm Password" spellcheck="false"
+                minlength="8">
+                <span class="inputerror"></span>
+               
+            </div>
+            <span class="error">nothing here</span>
+            
+        </div>
+
+        <div class="formdiv">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

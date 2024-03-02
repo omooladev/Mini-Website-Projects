@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-color: rgba(128, 0, 128,0.7);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+form{
+    width: 400px;
+    background-color: white;
+    padding: 20px 20px;
+}
+
+form .formdiv{
+    margin: 10px 0px;
+}
+
+form h1{
+    color: black;
+    font-size: 25px;
+}
+
+form .formdiv label{
+    height: 30px;
+}
+
+form .formdiv label span{
+    height: 30px;
+    font-weight: bold;
+}
+
+form .formdiv .inputdiv{
+    background-color: white;
+    position: relative;
+    height: auto;
+    padding: 5px 0px;
+
+}
+
+form .formdiv .inputdiv input{
+    width: 100%;
+    outline: none;
+    height: 100%;
+    padding: 10px 28px 10px 10px;
+    border: 1px solid black;
+}
+form .formdiv .inputdiv span.incorrect::after{
+    cursor: pointer;
+    position: absolute;
+    content: "\2716";
+    top:12px;
+    right: 10px;
+    border-radius: 50%;
+    color: red;
+    font-weight: bolder;
+
+} 
+form .formdiv .inputdiv span.correct::after{
+    cursor: pointer;
+    position: absolute;
+    content: "\2714";
+    top:12px;
+    right: 10px;
+    border-radius: 50%;
+    color: green;
+    font-weight: bolder;
+
+} 
+
+
+form .formdiv:nth-last-child(1) button{
+    cursor: pointer;
+    width: 100%;
+    background-color: purple;
+    padding: 10px 0px;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+form .formdiv:nth-last-child(1) button:active{
+    transform: scale(0.99);
+}
+
+
+.error{
+    color: red;
+    visibility: hidden;
+}
