@@ -4,64 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Affordable web design">
-    <meta name="author" content="Omosuyi Olawole Adewole">
-    <meta name="keywords" content="web design,affordable web design">
-    <title>Acne Web Design</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Acne webpage</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1><span class="highlight">Acne</span> Web Design</h1>
-            </div>
-            <nav>
+<body id="body">
+    <header class="header">
+        <div class="container head">
+            <h1 class="logo"><span>Acne</span> Web Design</h1>
+            <nav class="nav-menu">
                 <ul>
-                    <li class="current"><a href="index.html" >Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="services.html">Services</a></li>
+                    <li><a href="index.html" class="nav-links active" id="home">HOME</a></li>
+                    <li><a href="about.html" class="nav-links">ABOUT</a></li>
+                    <li><a href="services.html" class="nav-links">SERVICES</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section id="showcase">
-        <div class="container">
-            <h1>Affordable Professional Websites</h1>
-            <p>This website was created to serve as an affordable website for you</p>
-        </div>
+    <section class="section-1">
+        <h1 class="affordable">Affordable Professional Website</h1>
+        <p class="website-for-you"> This website was created to serve as an affordable website for you</p>
     </section>
-    <section id="newsletter">
-        <div class="container">
-            <h1>Subscribe To Our Newsletter</h1>
+    <section class="section-2">
+        <div class="container sect2">
+            <p class="newsletter">Subscribe To Our Newsletter</p>
             <form>
-                <input type="email" placeholder="Enter email....">
-                <button type="submit" class="button-1">Subscribe</button>
+                <input class="email" type="email" placeholder="Enter Email" required>
+                <button type="submit" class="subscribe">Subscribe</button>
             </form>
         </div>
     </section>
-    <section id="boxes">
-        <div class="container">
+    <section class="section-3">
+        <div class="container sect3">
             <div class="box">
-                <img src="images/html.png">
-                <h3>HTML5 Markup</h3>
+                <img src="image/html.png" alt="html image">
+                <h4>HTML5 Markup</h4>
                 <p>This is the logo of how html is used for website development and surprisingly,it is so interesting</p>
             </div>
+
             <div class="box">
-                <img src="images/css.png">
-                <h3>CSS3 Styling</h3>
-                <p>This is the logo of how Css is used for website development and surprisingly,it is so interesting</p>
+                <img src="image/css.png" alt="css image">
+                <h4>CSS3 Styling</h4>
+                <p>This is the logo of how css is used for website development and surprisingly,it is so interesting</p>
             </div>
+
             <div class="box">
-                <img src="images/business.png">
-                <h3>Graphic Design</h3>
+                <img src="image/business.png" alt="graphic image">
+                <h4>Graphic Design</h4>
                 <p>This is the logo of how graphic Design is used for website development and surprisingly,it is so interesting</p>
             </div>
+
         </div>
     </section>
-    <footer>
-        <p>Acne Web Design ,Copyright &copy; 2017</p>
+
+    <footer class="footer">
+        <P>Acne Web Design, Copyright &copy; 2017</P>
     </footer>
+
+    <script src="script.js"></script>
+    
+    
     
 </body>
 </html>
