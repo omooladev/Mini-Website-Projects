@@ -2,7 +2,7 @@
 
 This project is a website with a pop-up form that appears once the page is fully loaded
 
-[View the website here](https://mini-website-projects.netlify.app/Pop-up%20form/)
+[View the website here](https://mini-website-projects.netlify.app/pop-up%20form/)
 
 The screenshot below provides a glimpse of the website.
 
