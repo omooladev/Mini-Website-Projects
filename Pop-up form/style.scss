@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+body{
+    position: relative;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.container{
+    background-color: white;
+    position: absolute;
+    width: 50%;
+    top:20%;
+    left:25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 15px;
+    display: none;
+    animation: animatezoom 1s;
+    height: auto;
+    
+}
+
+@keyframes animatezoom{
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+}
+
+a{
+    text-decoration: none;
+}
+
+.cancel{
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: 26px;
+}
+
+
+.percent{
+    color:blue;
+    padding:10px 0px;
+    text-align: center;
+    width: 70%;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    align-items: center;
+    
+}
+
+.enter-email{
+    color: black;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 70%;
+}
+
+.be-the-first{
+    color: black;
+    text-align: center;
+    padding-bottom: 25px;
+    width: 70%;
+}
+
+
+input{
+    width: 70%;
+    height: 35px;
+    padding: 0px 10px;
+    font-size: 15px;
+    margin-bottom: 25px;
+  
+}
+
+
+.submit{
+    background-color: rgba(0, 0, 255,1.0);
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 60%;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.submit:hover{
+    background-color: rgba(0, 0, 255,0.8);
+}
+
+.submit:active{
+    transform: scale(0.99);
+}
+
+
+.reject{
+    color: black;
+    text-decoration: underline;
+    font-size: 13px;
+    font-weight: bold;
+}
