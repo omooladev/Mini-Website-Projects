@@ -1,10 +1,11 @@
-# 
-This website was created a long time ago while learning HTML and CSS.
+# Expanded Image
 
-[View the website here](https://mini-website-projects.netlify.app/tribute%20pages/)
+This is a small webpage featuring images that animate and expand when clicked
+
+[View the website here](https://mini-website-projects.netlify.app/expanded-image/)
 
 The screenshot below provides a glimpse of the website.
 
-![Screenshot of the website](./images/website-screnshot-1.png)
+![Screenshot of the website](./image/website-screnshot-1.png)
 
-![Screenshot of the website](./images/website-screnshot-2.png)
+![Screenshot of the website](./image/website-screnshot-2.png)
