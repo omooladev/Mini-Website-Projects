@@ -1,6 +1,8 @@
-# Tribute Pages
+# Omo Services
 
-This website was created a long time ago while learning HTML and CSS.
+This webpage was created to practice animation using CSS. It shows a Login and 
+SignUp page without both functionality not
+working
 
 [View the website here](https://mini-website-projects.netlify.app/tribute%20pages/)
 
