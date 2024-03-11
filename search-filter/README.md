@@ -1,7 +1,7 @@
 # Search Filter
 
-This webpage was created to pratice the
-filter functionality in Javascript and updating the browser DOM
+This webpage was designed for practicing the filter functionality in JavaScript and dynamically updating the
+browser's Document Object Model (DOM).
 
 [View the website here](https://mini-website-projects.netlify.app/search-filter)
 
