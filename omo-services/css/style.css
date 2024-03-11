@@ -1,0 +1,919 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  cursor: default;
+  width: 60%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: hidden;
+  position: relative;
+  background-color: transparent;
+  margin: 20px 0px;
+}
+
+.login-div {
+  background-color: #26055a;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 70px;
+  width: 50%;
+}
+
+.login-div h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.login-div form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.login-div form input {
+  height: 30px;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0px 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-div form input::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.login-div form input:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.login-div form input::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.login-div form input::placeholder {
+  font-size: 15px;
+}
+
+.login-div form label {
+  padding: 10px 0px;
+}
+
+.login-div form button {
+  margin: 20px 0px;
+  height: 40px;
+  background-color: #cf3131;
+  color: white;
+  border: none;
+}
+
+.login-div form button:hover {
+  background-color: rgba(207, 49, 49, 0.8);
+}
+
+.signup-div {
+  background-color: #7e1111;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 70px;
+  width: 50%;
+}
+
+.signup-div p {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+}
+
+.signup-div button {
+  margin: 20px 0px;
+  height: 40px;
+  background-color: #cc7b1e;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.signup-div button:hover {
+  background-color: rgba(204, 123, 30, 0.8);
+}
+
+.signuped-div {
+  background-color: #2a135f;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 70px;
+  height: 95vh;
+  position: absolute;
+  opacity: 0;
+  top: 100%;
+}
+
+.signuped-div h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.signuped-div form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.signuped-div form input {
+  height: 30px;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0px 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signuped-div form input::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.signuped-div form input:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.signuped-div form input::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.signuped-div form input::placeholder {
+  font-size: 15px;
+}
+
+.signuped-div form label {
+  padding: 10px 0px;
+  font-size: 15px;
+}
+
+.signuped-div form button {
+  margin: 20px 0px;
+  height: 40px;
+  background-color: #cf3131;
+  color: white;
+  border: none;
+}
+
+.signuped-div form button:hover {
+  background-color: rgba(207, 49, 49, 0.8);
+}
+
+.signuped-div form .username1 {
+  margin-top: 25px;
+  text-align: center;
+  color: orange;
+}
+
+.signuped-div form .password1 {
+  text-align: center;
+  color: orange;
+}
+
+.loginin-div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  background-color: #7e1111;
+  height: 95vh;
+  opacity: 1;
+  position: absolute;
+  top: -100%;
+}
+
+.loginin-div p {
+  font-size: 22px;
+  color: white;
+}
+
+.loginin-div button {
+  margin: 20px 0px;
+  height: 40px;
+  background-color: #cc7b1e;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.loginin-div button:hover {
+  background-color: rgba(204, 123, 30, 0.8);
+}
+
+.login-div.inactive {
+  background-color: #26055a;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 70px;
+  width: 50%;
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  opacity: 0;
+}
+
+.login-div.inactive h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.login-div.inactive form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.login-div.inactive form input {
+  height: 30px;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0px 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-div.inactive form input::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.login-div.inactive form input:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.login-div.inactive form input::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.login-div.inactive form input::placeholder {
+  font-size: 15px;
+}
+
+.login-div.inactive form label {
+  padding: 10px 0px;
+}
+
+.login-div.inactive form button {
+  margin: 20px 0px;
+  height: 40px;
+  background-color: #cf3131;
+  color: white;
+  border: none;
+}
+
+.login-div.inactive form button:hover {
+  background-color: rgba(207, 49, 49, 0.8);
+}
+
+.login-div.active {
+  background-color: #26055a;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 70px;
+  width: 50%;
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  opacity: 1;
+}
+
+.login-div.active h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.login-div.active form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.login-div.active form input {
+  height: 30px;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0px 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.login-div.active form input::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.login-div.active form input:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.login-div.active form input::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.login-div.active form input::placeholder {
+  font-size: 15px;
+}
+
+.login-div.active form label {
+  padding: 10px 0px;
+}
+
+.login-div.active form button {
+  margin: 20px 0px;
+  height: 40px;
+  background-color: #cf3131;
+  color: white;
+  border: none;
+}
+
+.login-div.active form button:hover {
+  background-color: rgba(207, 49, 49, 0.8);
+}
+
+.signup-div.inactive {
+  background-color: #7e1111;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 70px;
+  width: 50%;
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+  -webkit-transform: translateX(100%);
+          transform: translateX(100%);
+  opacity: 0;
+}
+
+.signup-div.inactive p {
+  font-size: 22px;
+  color: white;
+}
+
+.signup-div.inactive button {
+  margin: 20px 0px;
+  height: 40px;
+  background-color: #cc7b1e;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.signup-div.inactive button:hover {
+  background-color: rgba(204, 123, 30, 0.8);
+}
+
+.signup-div.active {
+  background-color: #7e1111;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0px 70px;
+  width: 50%;
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+  opacity: 1;
+}
+
+.signup-div.active p {
+  font-size: 22px;
+  color: white;
+}
+
+.signup-div.active button {
+  margin: 20px 0px;
+  height: 40px;
+  background-color: #cc7b1e;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.signup-div.active button:hover {
+  background-color: rgba(204, 123, 30, 0.8);
+}
+
+.signuped-div.active {
+  background-color: #2a135f;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 70px;
+  height: 95vh;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+  opacity: 1;
+}
+
+.signuped-div.active h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.signuped-div.active form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.signuped-div.active form input {
+  height: 30px;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0px 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signuped-div.active form input::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.signuped-div.active form input:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.signuped-div.active form input::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.signuped-div.active form input::placeholder {
+  font-size: 15px;
+}
+
+.signuped-div.active form label {
+  padding: 10px 0px;
+  font-size: 15px;
+}
+
+.signuped-div.active form button {
+  margin: 20px 0px;
+  height: 40px;
+  background-color: #cf3131;
+  color: white;
+  border: none;
+}
+
+.signuped-div.active form button:hover {
+  background-color: rgba(207, 49, 49, 0.8);
+}
+
+.signuped-div.active form .username1 {
+  margin-top: 25px;
+  text-align: center;
+  color: orange;
+}
+
+.signuped-div.active form .password1 {
+  text-align: center;
+  color: orange;
+}
+
+.signuped-div.inactive {
+  background-color: #2a135f;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 20px 70px;
+  height: 95vh;
+  position: absolute;
+  top: 100%;
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+  opacity: 0;
+}
+
+.signuped-div.inactive h1 {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.signuped-div.inactive form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  color: white;
+}
+
+.signuped-div.inactive form input {
+  height: 30px;
+  width: 100%;
+  outline: none;
+  border: none;
+  padding: 0px 5px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.signuped-div.inactive form input::-webkit-input-placeholder {
+  font-size: 15px;
+}
+
+.signuped-div.inactive form input:-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.signuped-div.inactive form input::-ms-input-placeholder {
+  font-size: 15px;
+}
+
+.signuped-div.inactive form input::placeholder {
+  font-size: 15px;
+}
+
+.signuped-div.inactive form label {
+  padding: 10px 0px;
+  font-size: 15px;
+}
+
+.signuped-div.inactive form button {
+  margin: 20px 0px;
+  height: 40px;
+  background-color: #cf3131;
+  color: white;
+  border: none;
+}
+
+.signuped-div.inactive form button:hover {
+  background-color: rgba(207, 49, 49, 0.8);
+}
+
+.signuped-div.inactive form .username1 {
+  margin-top: 25px;
+  text-align: center;
+  color: orange;
+}
+
+.signuped-div.inactive form .password1 {
+  text-align: center;
+  color: orange;
+}
+
+.loginin-div.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  background-color: #7e1111;
+  height: 95vh;
+  position: absolute;
+  top: 0%;
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+  left: 50%;
+  opacity: 1;
+  padding: 0px 40px;
+}
+
+.loginin-div.active p {
+  font-size: 22px;
+  color: white;
+}
+
+.loginin-div.active button {
+  margin: 20px 0px;
+  height: 40px;
+  background-color: #cc7b1e;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.loginin-div.active button:hover {
+  background-color: rgba(204, 123, 30, 0.8);
+}
+
+.loginin-div.inactive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  background-color: #7e1111;
+  height: 95vh;
+  position: absolute;
+  top: 0%;
+  -webkit-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+  top: -100%;
+  left: 50%;
+  opacity: 0;
+}
+
+.loginin-div.inactive p {
+  font-size: 22px;
+  color: white;
+}
+
+.loginin-div.inactive button {
+  margin: 20px 0px;
+  height: 40px;
+  background-color: #cc7b1e;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  width: 100%;
+}
+
+.loginin-div.inactive button:hover {
+  background-color: rgba(204, 123, 30, 0.8);
+}
+
+@media screen and (max-width: 1050px) {
+  body {
+    overflow: scroll;
+  }
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    background-color: transparent;
+    background-color: #7e1111;
+  }
+  .login-div {
+    width: 100%;
+    padding: 20px 30px;
+    height: auto;
+  }
+  .signup-div {
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+  }
+  .login-div.active {
+    width: 100%;
+    padding: 20px 30px;
+    height: auto;
+  }
+  .login-div.inactive {
+    width: 100%;
+  }
+  .signup-div.active {
+    width: 100%;
+    height: auto;
+    padding: 20px 30px;
+  }
+  .signup-div.inactive {
+    width: 100%;
+  }
+  .signuped-div {
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    height: auto;
+  }
+  .loginin-div {
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0%;
+    height: auto;
+    padding: 20px 0px;
+  }
+  .signuped-div.active {
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    -webkit-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+    padding: 0px 20px;
+    height: auto;
+  }
+  .signuped-div.active h1 {
+    font-size: 22px;
+    display: none;
+  }
+  .signuped-div.active form label {
+    font-size: 13px;
+  }
+  .signuped-div.inactive {
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    -webkit-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+    padding: 0px 20px;
+  }
+  .signuped-div.inactive h1 {
+    font-size: 22px;
+  }
+  .signuped-div.inactive form label {
+    font-size: 13px;
+  }
+  .loginin-div.active {
+    height: auto;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    left: 0%;
+    -webkit-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+    padding: 20px 20px;
+  }
+  .loginin-div.inactive {
+    position: absolute;
+    bottom: 100%;
+    width: 100%;
+    left: 0%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
