@@ -5,13 +5,13 @@
   background-repeat: repeat;
   background-position: top;
   background-size: contain;
+  background-color: red;
   header {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     padding: 20px 0px;
-    background-color: red;
     .navigation {
       color: $color1;
       text-align: right;
@@ -31,14 +31,16 @@
   }
   .image-and-form {
     display: flex;
+    align-items: flex-end;
     flex-direction: row;
     justify-content: space-between;
     gap: 2rem;
     .image {
-      max-height: 500px;
+      background-color: red;
+      width: auto;
       overflow: hidden;
       img {
-        height: 100%;
+        width: 400px;
         object-fit: cover;
       }
     }
@@ -94,7 +96,6 @@
   .section-1 {
     .image-and-form {
       .image {
-        height: 700px;
       }
       form {
       }
