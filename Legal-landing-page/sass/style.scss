@@ -1,4 +1,3 @@
-@import "./body";
 @import "./section1";
 @import "./section2";
 @import "./section3";
@@ -9,6 +8,14 @@
 @import "./global";
 @import "./mobile1";
 @import "./footer";
-
 @import "./mobile3";
 @import "./mobile2";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
