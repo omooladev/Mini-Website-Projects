@@ -1,0 +1,29 @@
+.section-4{
+    background-color: $color1;
+    padding:80px 0px
+}
+.expert{
+    text-align: center;
+    padding-bottom: 20px;
+    h2{
+       font: size 40px;color:$color7;line-height: 32px;
+    }
+}
+
+.section-4box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding:20px 15px;}
+    
+.section-4boxes{
+    
+    h4{
+        color: $color7;font-size:28px;line-height: 33.6px;text-align: left;
+        padding-bottom: 8px;
+        padding-top:20px
+    }
+    p{font-size:14px;color: $color4;padding-top: 5px;
+
+    }
+}
+

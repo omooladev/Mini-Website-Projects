@@ -1,0 +1,45 @@
+@import "./colors";
+.section-1{
+    height: auto;
+    background: url(../images/banner-bg.jpg);
+    background-repeat: repeat;
+    background-position: top;  
+    background-size: contain;
+    .header{
+        display: grid;grid-template-columns: repeat(2,1fr);
+        padding:20px 0px;
+        .link{
+            color:$color1;
+            text-align: right;
+            a{
+                 color: $color1;
+                transition: 0.6s;
+                font-size:18px;
+                &:hover{
+                    font-size: 20px;
+                }}}}
+    .form-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+    input{
+        margin-bottom: 20px;padding:0px 10px;
+        width: 100%;
+    }
+    
+    }
+
+
+        
+    
+    
+    
+
+    
+    
+    
+   
+    
+
+
