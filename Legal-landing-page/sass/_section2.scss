@@ -1,0 +1,76 @@
+.section-2{
+    background-color: white;
+    padding:20px 0px
+  
+}
+
+
+.section-2div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 2rem;
+    background-color: red;
+    height: 60vh;
+    background-color: $color1;
+    
+    align-items: center;
+    padding:0px 30px;
+
+    #{&}box{
+        background-color: $color6;
+        height: 50vh;
+        transition: 1s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        img{
+            background-color: $color1;
+
+        }
+        &:hover{
+            background-color: $color7;
+            .circular-text{
+                color: $color1;
+                p{
+                    color: $color1;
+                }
+            }
+        }
+
+
+    }
+    .circular{
+        height:125px;
+        width:125px;
+        border-radius: 50%;
+        background-color: $color1;
+        display: flex;
+        .image{
+            width:50%;margin: auto;
+            padding:0px 10px
+
+
+
+        }
+       
+    }
+    .circular-text{
+        color:$color7;
+        text-align: center;
+        padding:20px 0px;
+        p{
+            color:#484644;
+            font-size: 14px;
+        }
+        h3{
+            font-size: 28px;
+        }
+    }
+
+    .section-2divbox{
+        padding:0px 20px
+    }
+
+}
