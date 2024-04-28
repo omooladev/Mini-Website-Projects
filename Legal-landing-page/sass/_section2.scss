@@ -8,7 +8,6 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 20px 0;
-    background-color: red;
     .service {
       background-color: $color6;
       height: 50vh;
@@ -33,29 +32,31 @@
           }
         }
       }
-    }
-    .circular {
-      height: 125px;
-      width: 125px;
-      border-radius: 50%;
-      background-color: $color1;
-      display: flex;
-      .image {
-        width: 50%;
-        margin: auto;
-        padding: 0px 10px;
+
+      .circular {
+        height: 125px;
+        width: 125px;
+        border-radius: 50%;
+        background-color: $color1;
+        display: flex;
+        .image {
+          width: 50%;
+          margin: auto;
+          padding: 0px 10px;
+        }
       }
-    }
-    .circular-text {
-      color: $color7;
-      text-align: center;
-      padding: 20px 0px;
-      p {
-        color: #484644;
-        font-size: 14px;
-      }
-      h3 {
-        font-size: 28px;
+      .circular-text {
+        color: $color7;
+        text-align: center;
+        padding: 20px 0px;
+        p {
+          color: #484644;
+          font-size: 14px;
+          padding: 0.5rem 0;
+        }
+        h3 {
+          font-size: 28px;
+        }
       }
     }
   }

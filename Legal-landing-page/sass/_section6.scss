@@ -1,60 +1,47 @@
-.section-6{
-    padding:90px 0px;
+.section-6 {
+  padding: 90px 0px;
+  background-color: $color6;
+
+  #{&}div1 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 32px;
+    color: $color7;
+    font-weight: 200;
+    padding-bottom: 40px;
+  }
+  #{&}div2 {
     background-color: $color6;
-
-    #{&}div1{
-        text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+    .section-6div21 {
+      background-color: $color1;
+    }
+    .section-6div22 {
+      background-color: $color1;
+    }
+    .tolu {
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      padding-bottom: 20px;
+      column-gap: 1.2rem;
+    }
+    .name {
+      align-self: center;
+      h3 {
         font-size: 25px;
-        line-height: 32px;
         color: $color7;
-        font-weight: 200;
-        padding-bottom: 40px;
-      
-    }
-    #{&}div2{
-        background-color: $color6;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        column-gap: 3rem;
-        .section-6div21{
-            background-color: $color1;
-        }
-        .section-6div22{
-            background-color: $color1;
-        }
-    .tolu{
-        display: grid;
-        grid-template-columns: 1fr 4fr;
-        padding-bottom: 20px;
-        column-gap: 1.2rem;
-    }
-    .name{
-        align-self: center;
-        h3{
-            font-size: 25px;
-            color:$color7;
-
-        }
-        h4{font-size: 18px;color: $color4;
-
-        }
-    
-       
-    }
-    .section-6div212{
-        padding:0px 15px;
+      }
+      h4 {
         font-size: 18px;
-        font-family: Arial, Helvetica, sans-serif;
+        color: $color4;
+      }
     }
-    
-
+    .section-6div212 {
+      padding: 0px 15px;
+      font-size: 18px;
+      font-family: Arial, Helvetica, sans-serif;
     }
-}
-
-
-
-footer{
-    background-color: $color7;
-    padding:20px 0px;
-    color:$color1
+  }
 }
