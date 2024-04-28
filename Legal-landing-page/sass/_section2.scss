@@ -6,9 +6,9 @@
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    gap: 0.5rem;
+    justify-content: space-evenly;
     padding: 20px 0;
+    background-color: red;
     .service {
       background-color: $color6;
       height: 50vh;
@@ -18,7 +18,9 @@
       align-items: center;
       padding: 0 20px;
       transition: 1s;
-      max-width: 18rem;
+      margin: 1rem;
+      max-width: 25rem;
+      width: 100%;
       img {
         background-color: $color1;
       }
@@ -54,6 +56,17 @@
       }
       h3 {
         font-size: 28px;
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .section-2 {
+    .services {
+      .service {
+        max-width: 15rem;
+        width: 15rem;
       }
     }
   }
