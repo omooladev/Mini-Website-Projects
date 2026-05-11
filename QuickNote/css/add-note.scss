@@ -1,0 +1,40 @@
+header {
+  position: fixed;
+  width: 100vw;
+  height: 10vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+  background-color: var(--body-color);
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    .add-note {
+      justify-self: right;
+      cursor: pointer;
+      background-color: var(--primary-color);
+      color: white;
+      width: 120px;
+      font-size: 15px;
+      padding: 0.5rem 0.6rem;
+      border-radius: 5px;
+      &:hover {
+        background-color: var(--primary-hover-color);
+        transition: 035s ease-in;
+      }
+      p {
+        color: white;
+      }
+
+      span {
+        padding-right: 10px;
+        font-size: 20px;
+        font-weight: bolder;
+      }
+    }
+  }
+}

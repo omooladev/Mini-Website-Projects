@@ -1,0 +1,79 @@
+.notes {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+  .note {
+    background-color: #24b424;
+    height: 400px;
+    max-width: 500px;
+    width: 100%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    .note-header {
+      width: 100%;
+      height: 10vh;
+      padding: 0.5rem 0.8rem;
+      .icon-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        float: right;
+        height: 100%;
+        button {
+          position: relative;
+          cursor: pointer;
+          background-color: transparent;
+
+          overflow: hidden;
+          &.no-edit::before {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            content: "";
+            height: 100%;
+            width: 2px;
+            background-color: white;
+            transform: translateX(-50%) rotate(-45deg);
+          }
+        }
+        i {
+          font-size: 1.5rem;
+          color: white;
+        }
+        .edit-image1 {
+          cursor: pointer;
+          padding: 5px 5px;
+        }
+      }
+    }
+    .note-body {
+      height: 90vh;
+      background-color: white;
+      .note-text {
+        font-size: 1.2rem;
+        height: 100%;
+        width: 100%;
+        outline: none;
+        border: none;
+        padding: 1rem 0.8rem;
+        text-align: left;
+        line-height: 1.8rem;
+        letter-spacing: 0.1rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 560px) {
+  .notes {
+    width: 100%;
+  }
+  .notes .note-main-container {
+    width: 80%;
+  }
+}
